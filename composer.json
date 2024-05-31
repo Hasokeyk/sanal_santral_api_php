@@ -1,0 +1,28 @@
+{
+  "name": "hasokeyk/sanal_santral_api_php",
+  "authors": [
+    {
+      "name": "Hasan Yüksektepe",
+      "email": "hasanhasokeyk@hotmail.com",
+      "homepage": "https://hayatikodla.net",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
+  "keywords": [
+    "sms",
+    "Sanal Santral"
+  ],
+  "homepage": "https://hayatikodla.net",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Hasokeyk\\SanalSantralAPI\\": "src/SanalSantralAPI"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.4.2"
+  }
+}
